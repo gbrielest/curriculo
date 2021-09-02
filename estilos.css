@@ -1,0 +1,99 @@
+
+.foto-perfil{
+    width: 200px;
+    /* borda: espessura da borda tipo da borda cor da borda */
+    border: 10px double Gainsboro;
+    border-radius: 5%;
+}
+
+.icone{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.cabecalho{
+    background-color: Darkgrey ;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    /* margin espaço para fora padding espaço para dentro; */
+}
+
+.nome{
+    color: Gainsboro;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 38px;
+}
+  
+.cargo{
+    color: Gainsboro;
+    margin-top: 2px;
+    font-family: 'Segoe UI';
+    font-weight: 200;
+    font-size: 22px;
+}
+
+.botao{
+    border: 1px solid Gainsboro;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: Gainsboro;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI';
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.botao:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+.informacoes{
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: Gainsboro;
+    padding-top: 20px;
+}
+
+.titulo1{
+    text-align: center;
+    font-family: 'Segoe UI';
+    color: #2D46B9;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.titulo{
+    font-family: 'Segoe UI';
+    color: #2D46B9;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.texto-sobre{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    color: #2D46B9
+}
